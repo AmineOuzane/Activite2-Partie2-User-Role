@@ -22,3 +22,4 @@ public class User {
     @ManyToMany (mappedBy = "users",fetch = FetchType.EAGER) // CHARGE USERS AVEC LEUR ROLE AUSSI
     private List<Role> roles=new ArrayList<>(); // EAGER --> ArrayList pour eviter null pointer
 }
+
